@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F1A25AE5;
+}
+
+@font-face {
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../шрифты/inkut-antiqua/inknut-antiqua-v14-latin-regular.woff2');
+  }
+
+@font-face {
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../шрифты/inkut-antiqua/inknut-antiqua-v14-latin-500.woff2');
+  }
+
+@font-face {
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../шрифты/inkut-antiqua/inknut-antiqua-v14-latin-600.woff2');
+  }
+
+
+@font-face {
+    font-family: 'Knewave';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../шрифты/knewave-v14-latin-regular.woff2') format('woff2');
+  }
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.first-container {
+    width: 100%;
+}
+
+.container {
+    max-width: 1122px;
+    margin: 0 auto;
+    padding: 33px 0;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 69px;
+    height: 69px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.logo p{
+    margin-top: 20px;
+    align-content: center;
+    text-align: center;
+    font-family: "Inknut Antiqua", Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: white;
+    line-height: 28px;
+}
+
+.boldi{
+    font-family: "Inknut Antiqua", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    color: black;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.menu{
+    margin-left: 105px;
+}
+
+.menu a{
+    font-family: "Inknut Antiqua", Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    line-height: 28px;
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    margin: 0 68px 0 69px;
+}
+
+.menu a:hover, .menu a:focus, .menu a:active {
+    opacity: .75;
+}
+
+/* интро */
+
+.intro {
+    height: 100vh;
+}
+
+.osnova {
+    font-family: 'Knewave', "Inknut Antiqua", Arial, Helvetica;
+    font-size: 8em;
+    color: black;
+    
+    z-index: 1;
+    align-items: center;
+    width: 815px;
+    height: 800px;
+    margin-top: 200px;
+    margin-left: 104px;
+    border-radius: 30px;
+
+}
+
+.osnova ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.osnova li{
+    display: inline-block;
+}
+
+.osnova ul img {
+    width: 212.27px;
+    height: 275px;
+    margin-top: 81px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.osnova a {
+    margin-left: 200px;
+    margin-top: 60px;
+    border-radius: 30px;
+}
+
+.foto {
+    width: 645px;
+    height: 767px;
+    position: absolute;
+    top: 256px;
+    left: 795px;
+    z-index: -1;
+}
+
+
+/*.foto img[alt="tyanka"] {
+    z-index: 3;
+}
+
+.foto img[alt="Ellipse"] {
+    z-index: 1;
+}
